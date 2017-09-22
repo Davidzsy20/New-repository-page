@@ -1,0 +1,27 @@
+{
+  "name": "dataprac",
+  "version": "1.0.0",
+  "description": "Establishdatabase",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore node_modules index.js",
+    "start:es6": "nodemon --exec babel-node --ignore node_modules index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidzsy20/New-repository-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davidzsy20/New-repository-page/issues"
+  },
+  "homepage": "https://github.com/Davidzsy20/New-repository-page#readme",
+  "dependencies": {
+    "bookshelf": "^0.10.4",
+    "express": "^4.15.4",
+    "knex": "^0.13.0",
+    "sqlite3": "^3.1.11"
+  }
+}
